@@ -1,0 +1,23 @@
+{
+    "vscode-janus-debug.uploadManually": [
+        "index",
+        "Api",
+        "Global"
+    ],
+    "vscode-janus-debug.uploadOnSave": [
+        "Account",
+        "FreeText",
+        "SearchModal",
+        "NatureSearch",
+        "AddSearchModal",
+        "Colors",
+        "Questions",
+        "CustomPicker",
+        "Images",
+        "ComplaintSearchModal",
+        "Screens",
+        "Bottom",
+        "CustomSlider",
+        "Slider"
+    ]
+}
