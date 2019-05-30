@@ -10,6 +10,7 @@ import {
   Dimensions,
   Animated,
   CheckBox,
+  Platform,
 } from 'react-native';
 import DocumentScanner from 'react-native-documentscanner-android';
 
@@ -228,12 +229,12 @@ class LoginScreen extends Component {
                     <DocumentScanner
                       style={{flex: 1,width: '100%'}}
                       onPictureTaken={data => {
-                        console.log(data.path);
+                        console.log(data);
                         this.setState({path: data.path})
                         this.setState({captured: true})
                       }}
                       onProcessing = {(data) => {
-                        console.log('process ===>>>',data)
+                        // console.log('process ===>>>',data)
                       }}
                       enableTorch={this.state.enableTorch}
                       detectionCountBeforeCapture={Number(this.state.detectionCountBeforeCapture)}
