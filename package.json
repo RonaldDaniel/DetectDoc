@@ -14,7 +14,7 @@
     "mobx-persist": "^0.3.3",
     "mobx-react": "4.2.1",
     "react": "16.3.1",
-    "react-native": "0.55.4",
+    "react-native": "0.70.4",
     "react-native-documentscanner-android": "^1.2.1",
     "react-native-linear-gradient": "^2.4.0",
     "react-native-navigation": "github:wix/react-native-navigation#pull/2580/head",
